@@ -1,4 +1,4 @@
-public void lookAtSay() {
+public void lookAndSay() {
     String num = "1";
     Integer counter = 1;
     for (int j = 0; j < 12; j++) {
