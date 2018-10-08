@@ -7,7 +7,7 @@ public void lookAndSay() {
             if (!num.substring(i + 1).isEmpty() && num.charAt(i) == (num.charAt(i + 1))) {
                 counter++;
             } else {
-                result.append(counter.toString());
+                result.append(counter);
                 result.append(num.charAt(i));
                 counter = 1;
             }
