@@ -11,7 +11,6 @@ public void lookAndSay() {
                 counter = 1;
             }
         }
-        num = result.toString();
-        System.out.println(num);
+        System.out.println(num = result.toString());
     }
 }
