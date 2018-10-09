@@ -4,7 +4,7 @@ public void lookAndSay() {
     for (int j = 0; j < 12; j++) {
         StringBuffer result = new StringBuffer();
         for (int i = 0; i < num.length(); i++) {
-            if (!num.substring(i + 1).isEmpty() && num.charAt(i) == (num.charAt(i + 1))) {
+            if (i < num.length() - 1 && num.charAt(i) == (num.charAt(i + 1))) {
                 counter++;
             } else {
                 result.append(counter);
