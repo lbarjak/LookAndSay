@@ -1,6 +1,6 @@
 public void lookAndSay() {
     String num = "1";
-    Integer counter = 1;
+    int counter = 1;
     for (int j = 0; j < 10; j++) {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < num.length(); i++) {
